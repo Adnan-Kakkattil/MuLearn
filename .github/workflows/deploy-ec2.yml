@@ -1,4 +1,4 @@
-name: CI-CD Deploy to EC2
+name: Mulearn Website Deploy to AWS EC2
 
 on:
   push:
