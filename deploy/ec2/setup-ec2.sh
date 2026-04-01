@@ -8,7 +8,7 @@ fi
 
 DOMAIN_OR_IP="${1:-_}"
 DEPLOY_USER="${2:-ubuntu}"
-DEPLOY_PATH="${3:-/var/www/mulearn}"
+DEPLOY_PATH="${3:-/var/www/html}"
 NGINX_SITE_PATH="/etc/nginx/sites-available/mulearn"
 
 echo "Installing nginx and rsync..."
