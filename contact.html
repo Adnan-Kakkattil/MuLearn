@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MuLearn | Contact</title>
+  <meta name="description" content="Contact MuLearn for partnerships, mentorship, and learning opportunities." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;700;800&family=Hind:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles/contact.css" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="site-header glass">
+    <a class="brand" href="index.html" aria-label="MuLearn home">
+      <picture>
+        <source srcset="logo31.png" type="image/png" />
+        <img src="logo.webp" alt="MuLearn logo" class="brand-logo" />
+      </picture>
+      <span>MuLearn</span>
+    </a>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="career.html">Career</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section reveal">
+      <div>
+        <p class="eyebrow">Let’s connect</p>
+        <h1>Contact MuLearn</h1>
+        <p>
+          Planning a campus partnership, mentorship session, hiring collaboration, or product conversation?
+          Reach out and we will get back quickly.
+        </p>
+      </div>
+      <div class="hero-art parallax" data-speed="0.12" aria-hidden="true">
+        <div class="orb"></div>
+      </div>
+    </section>
+
+    <section class="section grid reveal">
+      <article class="contact-card glass" data-tilt>
+        <h2>General Enquiries</h2>
+        <p>hello@mulearn.org</p>
+        <h3>Careers</h3>
+        <p>careers@mulearn.org</p>
+        <h3>Partnerships</h3>
+        <p>partners@mulearn.org</p>
+      </article>
+
+      <article class="contact-card form-card glass">
+        <h2>Send A Message</h2>
+        <form>
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" placeholder="Your name" required />
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="you@example.com" required />
+
+          <label for="topic">Topic</label>
+          <select id="topic" name="topic" required>
+            <option value="">Choose one</option>
+            <option>Learning Programs</option>
+            <option>Campus Collaboration</option>
+            <option>Careers</option>
+            <option>Partnership</option>
+          </select>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" placeholder="Tell us about your idea" required></textarea>
+
+          <button type="submit" class="btn">Send Message</button>
+          <p class="form-note" id="form-note" role="status" aria-live="polite"></p>
+        </form>
+      </article>
+    </section>
+
+    <section class="section highlights reveal">
+      <h2>Where We Collaborate</h2>
+      <div class="highlight-row">
+        <article class="highlight glass" data-tilt>
+          <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=80" alt="Team coding setup" loading="lazy" />
+          <p>Remote-first product and community ops.</p>
+        </article>
+        <article class="highlight glass" data-tilt>
+          <img src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=900&q=80" alt="Learning session" loading="lazy" />
+          <p>Campus events, mentor clinics, and demo days.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 MuLearn. We build careers together.</p>
+  </footer>
+
+  <script src="scripts/contact.js"></script>
+</body>
+</html>
